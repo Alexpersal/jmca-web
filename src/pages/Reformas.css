@@ -1,0 +1,65 @@
+#root {
+  top: 0;
+  left: 0;
+}
+.imgSuperior {
+  border: 1px solid greenyellow;
+  height: 300px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("obrasHome.jpg");
+  background-color: transparent;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.projectsSpace {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+.projecto1 {
+  border: 1px solid black;
+  width: 45%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+}
+.reformasImg1,
+.reformasImg2,
+.reformasImg3,
+.reformasImg4,
+.reformasImg5,
+.reformasImg6 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-size: cover;
+  height: 400px;
+}
+.reformasImg1 {
+  background-image: url("/public/Imagenes/1Fachadas.jpg");
+}
+.reformasImg2 {
+  background-image: url("/public/Imagenes/2PInt.jpg");
+}
+.reformasImg3 {
+  background-image: url("/public/Imagenes/3RefEstruct.jpg");
+}
+.reformasImg4 {
+  background-image: url("/public/Imagenes/4Cubiertas.jpg");
+}
+.reformasImg5 {
+  background-image: url("/public/Imagenes/5RefInt.jpg");
+}
+.reformasImg6 {
+  background-image: url("/public/Imagenes/6Retail.jpg");
+}

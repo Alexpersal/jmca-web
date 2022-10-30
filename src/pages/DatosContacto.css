@@ -1,0 +1,23 @@
+.phone,
+.mail,
+.position {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  margin-left: 25px;
+  margin-right: 10%;
+}
+
+.position {
+  margin-right: 25px;
+}
+
+.phone p,
+.mail p,
+.position p {
+  color: var(--myWhite);
+  font-size: 18px;
+}

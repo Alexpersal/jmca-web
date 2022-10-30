@@ -1,0 +1,68 @@
+.imgSuperior {
+  height: 220px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("obrasHome.jpg");
+  background-color: transparent;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+.projectsSpace {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+.casasTerminadas {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.casasTerminadas h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+.casasTerminadas p {
+  width: 95%;
+  text-align: center;
+}
+.proyectoCasas {
+  border: 1px solid black;
+  width: 45%;
+  text-align: center;
+}
+
+.casasImg1,
+.casasImg2,
+.casasImg3,
+.casasImg4,
+.casasImg5 {
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.casasImg1 {
+  background-image: url("/public/Imagenes/1moderna.jpg");
+}
+.casasImg2 {
+  background-image: url("/public/Imagenes/1rustica.jpg");
+}
+.casasImg3 {
+  background-image: url("/public/Imagenes/2estrucAcero.jpg");
+}
+.casasImg4 {
+  background-image: url("/public/Imagenes/3ForjSanit.jpg");
+}
