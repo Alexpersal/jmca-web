@@ -66,24 +66,29 @@ function Home() {
         </div>
       </div>
       <div className="contenedor-proyectos">
-        <div className="contenedor-reformas" alt="reformas2">
-          <Link to={"../Reformas"}>
-            <img
-              className="reformas-home"
-              alt="reformas"
-              src={imgDiseñoInteriores}
-            ></img>
-          </Link>
-        </div>
-        <div className="contenedor-steelframe" alt="reformas">
-          <Link to={"./CasasEco"}>
-            <img
-              className="steelframe-home"
-              alt="steelframe"
-              src={imgCasaPrefabricada}
-            ></img>
-          </Link>
-        </div>
+        <Link
+          className="contenedor-reformas"
+          alt="reformas2"
+          to={"../Reformas"}
+        >
+          <img
+            className="reformas-home"
+            alt="reformas"
+            src={imgDiseñoInteriores}
+          ></img>
+        </Link>
+
+        <Link
+          className="contenedor-steelframe"
+          alt="reformas"
+          to={"./CasasEco"}
+        >
+          <img
+            className="steelframe-home"
+            alt="steelframe"
+            src={imgCasaPrefabricada}
+          ></img>
+        </Link>
       </div>
     </div>
   );

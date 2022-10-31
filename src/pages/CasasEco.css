@@ -21,7 +21,6 @@
   margin-bottom: 2%;
 }
 .casasTerminadas {
-  border: 1px solid black;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -40,7 +39,6 @@
   text-align: center;
 }
 .proyectoCasas {
-  border: 1px solid black;
   width: 45%;
   text-align: center;
 }
@@ -52,7 +50,7 @@
 .casasImg5 {
   background-size: cover;
   height: 400px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .casasImg1 {
   background-image: url("/public/Imagenes/1moderna.jpg");

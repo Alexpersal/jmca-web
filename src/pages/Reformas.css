@@ -3,7 +3,6 @@
   left: 0;
 }
 .imgSuperior {
-  border: 1px solid greenyellow;
   height: 300px;
   background-image: linear-gradient(
       to bottom,
@@ -26,7 +25,6 @@
   margin-bottom: 2%;
 }
 .projecto1 {
-  border: 1px solid black;
   width: 45%;
   margin-top: 5%;
   margin-left: 2%;
@@ -41,7 +39,7 @@
 .reformasImg6 {
   margin-top: 5%;
   margin-bottom: 5%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   background-size: cover;
   height: 400px;
 }
