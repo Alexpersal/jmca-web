@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jmca-web/static/css/main.15709dd3.css",
-    "main.js": "/jmca-web/static/js/main.2b1b4461.js",
+    "main.js": "/jmca-web/static/js/main.cc1d7b00.js",
     "static/js/787.b354d69f.chunk.js": "/jmca-web/static/js/787.b354d69f.chunk.js",
     "static/media/obrasHome.jpg": "/jmca-web/static/media/obrasHome.c8fffd50813fabd659f5.jpg",
     "static/media/obrasCasas.jpg": "/jmca-web/static/media/obrasCasas.a1900ec5c9a961a10fe8.jpg",
@@ -21,11 +21,11 @@
     "static/media/logo320x100.jpg": "/jmca-web/static/media/logo320x100.7f13d32cfcf8eed661cc.jpg",
     "index.html": "/jmca-web/index.html",
     "main.15709dd3.css.map": "/jmca-web/static/css/main.15709dd3.css.map",
-    "main.2b1b4461.js.map": "/jmca-web/static/js/main.2b1b4461.js.map",
+    "main.cc1d7b00.js.map": "/jmca-web/static/js/main.cc1d7b00.js.map",
     "787.b354d69f.chunk.js.map": "/jmca-web/static/js/787.b354d69f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15709dd3.css",
-    "static/js/main.2b1b4461.js"
+    "static/js/main.cc1d7b00.js"
   ]
 }
