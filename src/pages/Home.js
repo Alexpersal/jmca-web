@@ -74,7 +74,7 @@ function Home() {
           <img
             className="reformas-home"
             alt="reformas"
-            src={process.env.PUBLIC_URL + imgDiseñoInteriores}
+            src={imgDiseñoInteriores}
           ></img>
         </Link>
 
