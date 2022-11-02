@@ -86,7 +86,7 @@ function Home() {
           <img
             className="steelframe-home"
             alt="steelframe"
-            src={process.env.PUBLIC_URL + imgCasaPrefabricada}
+            src={imgCasaPrefabricada}
           ></img>
         </Link>
       </div>
