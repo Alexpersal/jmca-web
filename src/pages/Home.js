@@ -74,7 +74,7 @@ function Home() {
           <img
             className="reformas-home"
             alt="reformas"
-            src={imgDiseñoInteriores}
+            src={process.env.PUBLIC_URL + imgDiseñoInteriores}
           ></img>
         </Link>
 
@@ -86,7 +86,7 @@ function Home() {
           <img
             className="steelframe-home"
             alt="steelframe"
-            src={imgCasaPrefabricada}
+            src={process.env.PUBLIC_URL + imgCasaPrefabricada}
           ></img>
         </Link>
       </div>
