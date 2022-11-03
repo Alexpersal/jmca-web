@@ -21,6 +21,7 @@ footer {
   align-items: center;
   background-color: var(--myBlack);
 }
+
 .HolyGrail-nav,
 .HolyGrail-ads {
   /* 12em is the width of the columns */
@@ -113,5 +114,26 @@ aside {
   .HolyGrail-ads {
     /* 12em is the width of the columns */
     flex: 0 0 12em;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .cabeceraSuperior,
+  footer {
+    flex-flow: wrap;
+    justify-content: flex-start;
+  }
+  .HolyGrail-nav {
+    flex-flow: wrap;
+    justify-content: flex-start;
+  }
+  .Navegador-home {
+    width: 100%;
+  }
+  .Navegador-home a {
+    font-size: 16px;
+  }
+  ul.Navegador-home {
+    padding: 0;
+    margin: 0px;
   }
 }

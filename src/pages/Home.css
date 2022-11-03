@@ -53,6 +53,12 @@
   transition-duration: 3s;
   transition-delay: 2s;
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .texto-imagen {
+    top: 52%;
+    font-size: 30px;
+  }
+}
 
 /* .imagenIzquierda {
   bottom: 80%;
