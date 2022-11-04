@@ -1,3 +1,9 @@
+.contenedor-general-carrousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .contenedor-carrousel {
   width: 100%;
 }
@@ -96,6 +102,13 @@
 .contenedor-steelframe {
   border: 1px solid black;
 } */
+.Texto-Home {
+  width: 85%;
+  margin-top: 30px;
+}
+.Texto-Home p {
+  font-size: 30px;
+}
 .contenedor-proyectos {
   width: 100%;
   display: flex;
