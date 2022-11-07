@@ -36,7 +36,7 @@ export default function CasasEco() {
             problemas.
           </p>
         </div>
-        <div class="projecto1">
+        <div class="sistema-Constructivo">
           <h3>ESTRUCTURA DE ACERO GALVANIZADO. </h3>
           <div class="casasImg3"></div>
           <p>
@@ -56,7 +56,7 @@ export default function CasasEco() {
             incluso Passive house.
           </p>
         </div>
-        <div class="projecto1">
+        <div class="sistema-Constructivo">
           <h3>MEJORAS CONSTRUCTIVAS SEGÚN PRESUPUESTO INICIAL. </h3>
           <div class="casasImg4"></div>
           <p>

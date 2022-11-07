@@ -42,6 +42,14 @@
   width: 45%;
   text-align: center;
 }
+.sistema-Constructivo {
+  width: 45%;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  text-align: center;
+}
 
 .casasImg1,
 .casasImg2,
@@ -63,4 +71,24 @@
 }
 .casasImg4 {
   background-image: url("/public/Imagenes/3ForjSanit.jpg");
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .proyectoCasas {
+    width: 84%;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .sistema-Constructivo {
+    width: 84%;
+  }
+  .casasTerminadas p {
+    width: 84%;
+  }
+  .casasImg1,
+  .casasImg2,
+  .casasImg3,
+  .casasImg4 {
+    height: 200px;
+    margin-bottom: 30px;
+  }
 }

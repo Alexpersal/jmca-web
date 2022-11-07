@@ -65,7 +65,7 @@ function Home() {
           </button> */}
         </div>
       </div>
-      <div className="Texto-Home">
+      <div className="texto-Home">
         <p>
           {" "}
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
