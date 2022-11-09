@@ -1,7 +1,3 @@
-#root {
-  top: 0;
-  left: 0;
-}
 .imgSuperior {
   height: 300px;
   background-image: linear-gradient(
@@ -79,7 +75,7 @@
   .reformasImg4,
   .reformasImg5,
   .reformasImg6 {
-    height: 150px;
+    height: 250px;
     margin-bottom: 30px;
   }
 }

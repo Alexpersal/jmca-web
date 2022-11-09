@@ -79,9 +79,9 @@ function Home() {
       </div>
       <div className="contenedor-proyectos">
         <Link
+          to={"../Reformas"}
           className="contenedor-reformas"
           alt="reformas2"
-          to={"../Reformas"}
         >
           <img
             className="reformas-home"
