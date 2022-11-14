@@ -3,7 +3,6 @@ body,
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: "Roboto Condensed", sans-serif;
 }
 
 .HolyGrail-body {
@@ -143,5 +142,24 @@ aside {
   ul.Navegador-home {
     padding: 0;
     margin-top: 15px;
+  }
+}
+/*mobile Landscape */
+@media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .Logotipo {
+    height: 50px;
+  }
+  .Logotipo img {
+    height: 50px;
+  }
+  .Navegador-home {
+    justify-content: space-evenly;
+  }
+  .Navegador-home a {
+    font-size: 16px;
+  }
+  ul.Navegador-home {
+    justify-content: space-around;
+    padding: 0px;
   }
 }

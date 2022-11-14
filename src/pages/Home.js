@@ -78,11 +78,7 @@ function Home() {
         </p>
       </div>
       <div className="contenedor-proyectos">
-        <Link
-          to={"../Reformas"}
-          className="contenedor-reformas"
-          alt="reformas2"
-        >
+        <Link to={"./Reformas"} className="contenedor-reformas" alt="reformas2">
           <img
             className="reformas-home"
             alt="reformas"

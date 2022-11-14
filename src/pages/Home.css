@@ -136,7 +136,7 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .texto-imagen {
     top: 52%;
-    font-size: 30px;
+    font-size: 40px;
   }
   .texto-Home p {
     font-size: 22px;
@@ -149,5 +149,21 @@
     width: 84%;
     height: 150px;
     margin-bottom: 30px;
+  }
+}
+
+/*mobile Landscape */
+@media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .contenedor-imagenes,
+  .contenedor-proyectos {
+    width: 100%;
+  }
+
+  .texto-imagen {
+    top: 75%;
+    font-size: 30px;
+  }
+  .texto-Home p {
+    font-size: 22px;
   }
 }

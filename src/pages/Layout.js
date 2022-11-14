@@ -18,15 +18,15 @@ export default function Layout() {
             </Link>
           </div>
           <ul className="Navegador-home">
-            <li>
+            <li key="/">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li key="../Reformas">
               <Link to="../Reformas">
                 Reformas /<br></br> Rehabilitaciones
               </Link>
             </li>
-            <li>
+            <li key="../CasasEco">
               <Link to="../CasasEco">
                 Casas <br></br>Industrializadas
               </Link>

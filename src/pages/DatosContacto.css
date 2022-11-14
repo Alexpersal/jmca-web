@@ -40,3 +40,11 @@
     width: 100%;
   }
 }
+/*mobile Landscape */
+@media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .phone p,
+  .mail p,
+  .position p {
+    font-size: 14px;
+  }
+}
