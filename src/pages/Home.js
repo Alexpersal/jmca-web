@@ -5,7 +5,7 @@ import img1 from "../pages/obrasHome.jpg";
 import img2 from "../obrasCasas.jpg";
 import img3 from "../obrasReformas.jpg";
 import imgDiseñoInteriores from "../diseñoInteriores.jpg";
-import imgCasaPrefabricada from "../casaPrefabricada.jpg";
+import casaSteelFrame from "../casaSteelFrame.jpg";
 
 function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -15,22 +15,9 @@ function Home() {
     "Construcción sostenible",
     "Obra civil",
   ];
+
   const [posicion, setPosicion] = useState(0);
 
-  /*   function imganterior() {
-    if (posicion > 0) {
-      setPosicion((posicion) => posicion - 1);
-    } else {
-      setPosicion(imagenes.length - 1);
-    }
-  }
-  function imgSiguiente() {
-    if (posicion < imagenes.length - 1) {
-      setPosicion((posicion) => posicion + 1);
-    } else {
-      setPosicion(0);
-    }
-  } */
   useEffect(() => {
     const lastIndex = imagenes.length - 1;
     if (posicion < 0) {
@@ -57,24 +44,20 @@ function Home() {
             src={imagenes[posicion]}
           ></img>
           <div className="texto-imagen">{frases[posicion]}</div>
-          {/*    <button className="imagenIzquierda" onClick={() => imganterior()}>
-            <p>❮</p>
-          </button>
-          <button className="imagenDerecha" onClick={() => imgSiguiente()}>
-            <p>❯</p>
-          </button> */}
         </div>
       </div>
       <div className="texto-Home">
         <p>
           {" "}
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
+          GRUP JCMA CALVO somos una empresa dedicada a la construcción desde el
+          año 2005. Realizamos todo tipo de rehabilitaciones y reformas.
+          Fachadas con andamio tubular, patios interiores, cambio de bajantes,
+          reformas de viviendas con proyectos de interiorismo, retail, oficinas
+          ... Desde hace 3 años tambien realizamos viviendas de nueva
+          edificación mediante el sistema constructivo steel frame, favoreciendo
+          la industrialización en la construcción, así como hacerla mucho más
+          sostenible y eficiente. Estamos a vuestra disposición para cualquier
+          duda o consulta. Llámanos.
         </p>
       </div>
       <div className="contenedor-proyectos">
@@ -94,7 +77,7 @@ function Home() {
           <img
             className="steelframe-home"
             alt="steelframe"
-            src={imgCasaPrefabricada}
+            src={casaSteelFrame}
           ></img>
         </Link>
       </div>
