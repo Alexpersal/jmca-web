@@ -57,6 +57,36 @@
 .reformasImg6 {
   background-image: url("/public/Imagenes/6Retail.jpg");
 }
+
+@media only screen and (max-device-width: 370px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .imgSuperior p {
+    font-size: 22px;
+  }
+  .projectsSpace {
+    display: block;
+  }
+  .projectsSpace p {
+    font-size: 14px;
+  }
+
+  .projecto1,
+  .projecto2,
+  .projecto3,
+  .projecto4,
+  .projecto5,
+  .projecto6 {
+    width: 84%;
+  }
+  .reformasImg1,
+  .reformasImg2,
+  .reformasImg3,
+  .reformasImg4,
+  .reformasImg5,
+  .reformasImg6 {
+    height: 250px;
+    margin-bottom: 30px;
+  }
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .projectsSpace {
     display: block;

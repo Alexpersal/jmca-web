@@ -115,6 +115,36 @@ aside {
     flex: 0 0 12em;
   }
 }
+
+@media only screen and (max-device-width: 370px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .cabeceraSuperior,
+  footer {
+    flex-flow: wrap;
+    justify-content: flex-start;
+  }
+  .HolyGrail-nav {
+    flex-flow: wrap;
+    height: 50%;
+  }
+  .Logotipo {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .Logotipo img {
+    height: 50px;
+  }
+
+  .Navegador-home {
+    width: 100%;
+  }
+  .Navegador-home a {
+    font-size: 14px;
+  }
+  ul.Navegador-home {
+    padding: 0;
+    margin-top: 15px;
+  }
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .cabeceraSuperior,
   footer {
@@ -161,5 +191,19 @@ aside {
   ul.Navegador-home {
     justify-content: space-around;
     padding: 0px;
+  }
+}
+
+@media only screen and (min-device-width: 428px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .Logotipo {
+    height: 60px;
+    margin-top: 15px;
+  }
+  .Logotipo img {
+    height: 60px;
+  }
+
+  .Navegador-home a {
+    font-size: 24px;
   }
 }
