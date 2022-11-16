@@ -46,7 +46,6 @@ footer {
   justify-content: center;
 }
 img {
-  /*  background-image: url("./logo320x100.jpg"); */
   height: max-content;
   max-width: -webkit-fill-available;
 }
@@ -95,11 +94,6 @@ img {
 .HolyGrail-nav {
   order: -1;
 }
-/* main,
-nav,
-aside {
-  border: 1px solid black;
-} */
 
 @media (min-width: 768px) {
   .HolyGrail-body {

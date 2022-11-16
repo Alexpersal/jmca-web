@@ -5,9 +5,9 @@ export default function Reformas() {
     <>
       <div class="imgSuperior">
         <p>
-          Realizamos todo tipo de
+          Obra Civil
           <br />
-          Obra Civil / Reformas Integrales
+          Reformas Integrales
           <br />
           Rehabilitación Edificios
         </p>

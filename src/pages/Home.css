@@ -21,12 +21,6 @@
   margin: auto;
   object-fit: cover;
   opacity: 50%;
-
-  /*   transition-property: width, height;
-  transition-duration: 3s;
-  transition-delay: 2s;
-  width: 0%;
-  height: 0%; */
 }
 .texto-imagen {
   position: absolute;
@@ -41,15 +35,9 @@
   animation-timing-function: linear;
   animation-delay: 0s;
   animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: normal;
+
   animation-play-state: running;
   text-shadow: 0px 10px 10px rgb(229, 235, 247, 0.25);
-
-  /*   transition-property: font-size;
-  transition-duration: 3s;
-  transition-delay: 2s;
-  font-size: 14px; */
 }
 
 .texto-imagen::after {
@@ -60,42 +48,6 @@
   transition-delay: 2s;
 }
 
-/* .imagenIzquierda {
-  bottom: 80%;
-  left: 3%;
-}
-.imagenDerecha {
-  bottom: 80%;
-  left: 90%;
-} */
-
-/* button {
-  position: relative;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  background: transparent;
-  color: white;
-  font-size: 5rem;
-} */
-
-/* .imagenIzquierda:hover {
-  transform: translateX(-10px) scale(1.2);
-  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
-}
-
-.imagenDerecha :hover {
-  transform: translateX(10px) scale(1.2);
-  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
-} */
-
-/* .contenedor-proyectos,
-.contenedor-reformas,
-.contenedor-steelframe {
-  border: 1px solid black;
-} */
 .texto-Home {
   width: 85%;
   text-align: center;
