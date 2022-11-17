@@ -14,15 +14,16 @@
   margin-right: 25px;
 }
 
-.phone p,
-.mail p,
+.phone a,
+.mail a,
 .position p {
+  text-decoration: none;
   color: var(--myWhite);
   font-size: 18px;
 }
 @media only screen and (max-device-width: 370px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .phone p,
-  .mail p,
+  .phone a,
+  .mail a,
   .position p {
     font-size: 12px;
   }
@@ -40,8 +41,27 @@
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .phone p,
-  .mail p,
+  .phone a,
+  .mail a,
+  .position p {
+    font-size: 12px;
+  }
+
+  .phone {
+    margin-left: 5%;
+    margin-right: 0px;
+  }
+  .mail {
+    margin-left: 19%;
+    margin-right: 0px;
+  }
+  .position {
+    width: 100%;
+  }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .phone a,
+  .mail a,
   .position p {
     font-size: 12px;
   }
@@ -60,8 +80,8 @@
 }
 /*mobile Landscape */
 @media only screen and (max-device-width: 926px) and (max-device-height: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .phone p,
-  .mail p,
+  .phone a,
+  .mail a,
   .position p {
     font-size: 14px;
   }

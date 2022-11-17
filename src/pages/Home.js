@@ -48,15 +48,16 @@ function Home() {
       </div>
       <div className="texto-Home">
         <p>
-          GRUP JCMA CALVO <br></br>Somos una empresa dedicada a la construcción
-          desde el año 2005. Realizamos todo tipo de rehabilitaciones y
-          reformas. Fachadas con andamio tubular, patios interiores, cambio de
-          bajantes, reformas de viviendas con proyectos de interiorismo, retail,
-          oficinas ... <br></br>Desde hace 3 años tambien realizamos viviendas
-          de nueva edificación mediante el sistema constructivo steel frame,
-          favoreciendo la industrialización en la construcción, así como hacerla
-          mucho más sostenible y eficiente. Estamos a vuestra disposición para
-          cualquier duda o consulta. Llámanos.
+          Contamos con una dilatada experiencia en el de la rehabilitación de
+          edificios y reformas, ya sean proyectos de interiorismo para
+          viviendas, remodelación de oficinas o el retail. <br></br>Somos una
+          empresa dedicada a la construcción desde el año 2005 y con
+          especialización contrastada desde hace más de 3 años en la
+          construcción de obra nueva más sostenible y eficiente, ofreciendo la
+          última tecnología en sistemas constructivos, mediante el sistema Steel
+          Frame. Si quieres que te acompañemos en el proceso de hacer realidad
+          todos tus proyectos, no dudes en contactar con nosotros, estaremos
+          encantados de poder ser partícipe en cada uno de ellos.
         </p>
       </div>
       <div className="contenedor-proyectos">

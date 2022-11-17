@@ -9,11 +9,11 @@ export default function DatosContacto() {
         <BsFillTelephoneFill
           style={{ fontSize: "28px", marginRight: "10px" }}
         ></BsFillTelephoneFill>
-        <p>+34 666 66 66 66</p>
+        <a href="tel:+34609449920">+34609449920</a>
       </div>
       <div className="mail">
         <HiMail style={{ fontSize: "28px", marginRight: "10px" }}></HiMail>
-        <p>miguelcalvo@gmail.com</p>
+        <a href="mailto:miguelcalvo@gmail.com">miguelcalvo@gmail.com</a>
       </div>
       <div className="position">
         <BsFillGeoFill
