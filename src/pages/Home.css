@@ -51,22 +51,42 @@
 .texto-Home {
   width: 85%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
-.texto-Home p {
+.texto-Home h1 {
   font-size: 30px;
 }
 .contenedor-proyectos {
-  width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  max-height: 500px;
-  margin-top: 30px;
+  margin-top: 50px;
+}
+.contenedor-proyectos-reformas-descripcion,
+.contenedor-proyectos-casas-descripcion {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
 }
 .contenedor-reformas,
 .contenedor-steelframe {
-  width: 40%;
+  width: 50%;
   margin: 30px;
+}
+
+.contenedor-proyectos-reformas-textos {
+  margin-right: 30px;
+  display: block;
+  width: 40%;
+  text-align: justify;
+}
+.contenedor-proyectos-casas-textos {
+  margin-left: 30px;
+  display: block;
+  width: 40%;
+  text-align: justify;
 }
 
 .reformas-home,
@@ -74,7 +94,6 @@
   width: 100%;
   height: 300px;
   object-fit: cover;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
