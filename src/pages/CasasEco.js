@@ -56,7 +56,7 @@ export default function CasasEco() {
           </p>
         </div>
         <div class="sistema-Constructivo">
-          <h3>MEJORAS CONSTRUCTIVAS SEGÚN PRESUPUESTO INICIAL. </h3>
+          <h3>MEJORAS SEGÚN PRESUPUESTO INICIAL. </h3>
           <div class="casasImg4"></div>
           <p>
             Ofrecemos todo tipo de mejoras constructivas en su vivienda para

@@ -26,7 +26,7 @@
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .casasTerminadas h3 {
@@ -37,10 +37,15 @@
 .casasTerminadas p {
   width: 95%;
   text-align: center;
+  margin-top: 5%;
+}
+.sistema-Constructivo p {
+  margin-top: 10%;
 }
 .proyectoCasas {
   width: 45%;
   text-align: center;
+  margin-top: 1%;
 }
 .sistema-Constructivo {
   width: 45%;
@@ -74,6 +79,9 @@
 }
 
 @media only screen and (max-device-width: 370px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .projectsSpace p {
+    font-size: smaller;
+  }
   .proyectoCasas {
     width: 84%;
     height: 250px;
@@ -82,6 +90,7 @@
   .sistema-Constructivo {
     width: 84%;
   }
+  .casasTerminadas h3,
   .casasTerminadas p {
     width: 84%;
     font-size: 14px;
@@ -95,6 +104,9 @@
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .projectsSpace p {
+    font-size: smaller;
+  }
   .proyectoCasas {
     width: 84%;
     height: 250px;
@@ -103,9 +115,11 @@
   .sistema-Constructivo {
     width: 84%;
   }
+  .casasTerminadas h3,
   .casasTerminadas p {
     width: 84%;
   }
+
   .casasImg1,
   .casasImg2,
   .casasImg3,
