@@ -20,8 +20,8 @@ export default function DatosContacto() {
           style={{ fontSize: "28px", marginRight: "10px" }}
         ></BsFillGeoFill>
         <p>
-          Carrer Pep Ventura, 8 <br />
-          08640 Olesa de Montserrat, Barcelona
+          Carrer Pep Ventura 8 - 08640 <br />
+          Olesa de Montserrat, Barcelona
         </p>
       </div>
     </>
