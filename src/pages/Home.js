@@ -51,13 +51,14 @@ function Home() {
           Contamos con una dilatada experiencia en la rehabilitación de
           edificios, fachadas y reformas, ya sean estas últimas en proyectos de
           interiorismo para viviendas, remodelación de oficinas o retail.{" "}
-          <br></br>Somos una empresa dedicada a la construcción desde el año
-          2005 y con especialización contrastada desde hace más de 3 años en la
-          construcción de obra nueva más sostenible y eficiente, ofreciendo la
-          última tecnología en sistemas constructivos, mediante el sistema Steel
-          Frame. Si quieres que te acompañemos en el proceso de hacer realidad
-          todos tus proyectos, no dudes en contactar con nosotros, estaremos
-          encantados de poder ser partícipe en cada uno de ellos.
+          <br></br>Empresa afincada en Barcelona, dedicada a la construcción
+          desde el año 2005 y con especialización contrastada desde hace más de
+          3 años en la construcción de obra nueva más sostenible y eficiente,
+          ofreciendo la última tecnología en sistemas constructivos, mediante el
+          sistema Steel Frame. Si quieres que te acompañemos en el proceso de
+          hacer realidad todos tus proyectos, no dudes en contactar con
+          nosotros, estaremos encantados de poder ser partícipe en cada uno de
+          ellos.
         </h1>
       </div>
       <div className="contenedor-proyectos">
