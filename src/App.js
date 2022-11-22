@@ -18,33 +18,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-
-      {/*    <header>
-        <div className="cabeceraSuperior">
-          <DatosContacto></DatosContacto>
-        </div>
-        <nav className="HolyGrail-nav">
-          <div className="Logotipo">
-            <img src={Logo} alt="Logo" />
-          </div>
-          <ul className="Navegador-home">
-            <li>Home</li>
-            <li>Reformas</li>
-            <li>Casas Prefabricadas</li>
-          </ul>
-        </nav>
-      </header>
-      <div className="HolyGrail-body">
-        <main className="HolyGrail-content">
-          <div className="App">
-            {/* <HomeImagen></HomeImagen> *
-            <Reformas></Reformas>
-          </div>
-        </main>
-      </div>
-      <footer>
-        <DatosContacto></DatosContacto>
-      </footer> */}
     </>
   );
 }

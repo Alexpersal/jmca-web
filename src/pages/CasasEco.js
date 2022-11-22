@@ -16,7 +16,6 @@ export default function CasasEco() {
           <div class="proyectoCasas">
             <div class="casasImg2"></div>
           </div>
-
           <p>
             Los proyectos que llevamos a cabo, son totalmente personalizados y
             exclusivos, mediante este sistema de construcción, no hay límites a

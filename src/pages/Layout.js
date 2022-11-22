@@ -37,10 +37,6 @@ export default function Layout() {
       <div className="HolyGrail-body">
         <main className="HolyGrail-content">
           <Outlet></Outlet>
-          {/*   <div className="App">
-             <HomeImagen></HomeImagen> 
-            <Reformas></Reformas>
-          </div> */}
         </main>
       </div>
       <footer>
