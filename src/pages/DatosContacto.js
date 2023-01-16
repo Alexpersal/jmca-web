@@ -13,7 +13,9 @@ export default function DatosContacto() {
       </div>
       <div className="mail">
         <HiMail style={{ fontSize: "28px", marginRight: "10px" }}></HiMail>
-        <a href="mailto:miguelcalvo@gmail.com">miguel.grupcalvo@gmail.com</a>
+        <a href="mailto:miguel.grupcalvo@hotmail.com">
+          miguel.grupcalvo@hotmail.com
+        </a>
       </div>
       <div className="position">
         <BsFillGeoFill
