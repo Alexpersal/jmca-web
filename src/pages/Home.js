@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import img1 from "../pages/obrasHome.jpg";
 import img2 from "../obrasCasas.jpg";
 import img3 from "../obrasReformas.jpg";
-import imgDiseñoInteriores from "../diseñoInteriores.jpg";
+import imgDisenoInteriores from "../disenoInteriores.jpg";
 import casaSteelFrame from "../casaSteelFrame.jpg";
 
 function Home() {
@@ -71,7 +71,7 @@ function Home() {
             <img
               className="reformas-home"
               alt="reformas"
-              src={imgDiseñoInteriores}
+              src={imgDisenoInteriores}
             ></img>
           </Link>
           <div className="contenedor-proyectos-reformas-textos">
